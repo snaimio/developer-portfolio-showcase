@@ -1,11 +1,17 @@
 # Developer & Designer Portfolio
 
-> A responsive, single-page personal portfolio website built with semantic HTML5 and modern CSS3, designed to showcase web development and UI/UX design skills.
+> A responsive, single-page personal portfolio website built with semantic HTML5 and modern CSS3, designed to showcase front-end web development and UI/UX design skills.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Responsive Design](https://img.shields.io/badge/Design-Responsive-success)](https://web.dev/responsive-web-design-basics/)
+
+---
+
+## Preview Showcase
+
+![Developer Portfolio Preview](assets/images/preview.jpg)
 
 ---
 
@@ -17,14 +23,13 @@
 - [Project Architecture](#project-architecture)
 - [Responsive Breakpoints](#responsive-breakpoints)
 - [Getting Started](#getting-started)
-- [Live Demo / Preview](#live-demo--preview)
 - [Author & License](#author--license)
 
 ---
 
 ## Overview
 
-This project is a personal portfolio web page highlighting the creator's technical proficiency in front-end development and visual design. It provides a clean, engaging interface with high-contrast color palettes, smooth navigation, and a modern card-based layout.
+This project is a personal portfolio web page highlighting technical proficiency in front-end development, semantic architecture, and visual design. It provides a clean, engaging interface with high-contrast color palettes, smooth navigation, and a modern card-based layout.
 
 ---
 
@@ -60,7 +65,7 @@ This project is a personal portfolio web page highlighting the creator's technic
 ## Project Architecture
 
 ```plaintext
-html_assignment_1/
+developer-portfolio-showcase/
 ├── assets/
 │   └── images/
 │       ├── bioPic.png                 # Profile portrait
@@ -69,6 +74,7 @@ html_assignment_1/
 │       ├── linkedin_social_icon.png   # LinkedIn profile icon
 │       ├── logo.png                   # Brand mark / logo
 │       ├── map.png                    # Location map graphic
+│       ├── preview.jpg                # Portfolio preview screenshot
 │       ├── skillsBkg.png              # Background pattern for skills section
 │       └── twitter_social_icon.png    # Twitter/X profile icon
 ├── css/
@@ -93,20 +99,13 @@ html_assignment_1/
 
 ## Getting Started
 
-### Prerequisites
-A modern web browser (Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge).
-
 ### Installation & Local Setup
-1. Clone or download the repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/<username>/html_assignment_1.git
-   cd html_assignment_1
+   git clone https://github.com/snaimio/developer-portfolio-showcase.git
+   cd developer-portfolio-showcase
    ```
-2. Open `index.html` in your web browser:
-   - On macOS: `open index.html`
-   - On Windows: `start index.html`
-   - On Linux: `xdg-open index.html`
-   - Or use VS Code Live Server extension.
+2. Open `index.html` in your web browser.
 
 ---
 
